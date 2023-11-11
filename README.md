@@ -15,7 +15,8 @@ pnpm add -D less-plugin-preset-env
 ## Programmatic usage
 
 ```js
-var LessPluginPresetEnv = require('less-plugin-preset-env');
+var LessPluginPresetEnv = require('less-plugin-preset-env'); // or
+// import LessPluginPresetEnv from 'less-plugin-preset-env';
 
 /** @see https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env#options */
 var options = {};

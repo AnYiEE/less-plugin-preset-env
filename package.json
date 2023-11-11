@@ -2,7 +2,7 @@
     "name": "less-plugin-preset-env",
     "version": "1.0.0",
     "description": "postcss-preset-env plugin for less.js",
-    "homepage": "http://lesscss.org",
+    "homepage": "https://github.com/AnYiEE/less-plugin-preset-env",
     "author": {
         "name": "AnYiEE",
         "email": "i@anyi.in"
@@ -34,7 +34,6 @@
     },
     "keywords": [
         "less plugins",
-        "autoprefixer",
         "less prefixes"
     ]
 }
