@@ -1,32 +1,26 @@
-[![NPM version](https://badge.fury.io/js/less-plugin-autoprefix.svg)](http://badge.fury.io/js/less-plugin-autoprefix)
+[![NPM version](https://badge.fury.io/js/less-plugin-preset-env.svg)](http://badge.fury.io/js/less-plugin-preset-env)
 
-less-plugin-autoprefix
-========================
+# less-plugin-preset-env
 
-Uses autoprefixer to add prefixes to css after conversion from less.
+Uses `postcss-preset-env` to convert modern css syntax and determine required polyfills after conversion from less.
 
 ## lessc usage
 
 Install..
 
 ```
-npm install -g less-plugin-autoprefix
+pnpm add -D less-plugin-preset-env
 ```
-
-and then on the command line,
-
-```
-lessc file.less --autoprefix="browsers"
-```
-
-The browsers are a comma seperated list of [browsers as specified with autoprefixer](https://github.com/postcss/autoprefixer#browsers).
 
 ## Programmatic usage
 
 ```js
-var LessPluginAutoPrefix = require('less-plugin-autoprefix'),
-    autoprefixPlugin = new LessPluginAutoPrefix({browsers: ["last 2 versions"]});
-less.render(lessString, { plugins: [autoprefixPlugin] })
+var LessPluginPresetEnv = require('less-plugin-preset-env');
+
+/** @see https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env#options */
+var options = {};
+
+less.render(lessString, { plugins: [new LessPluginAutoPrefix(options)] })
   .then(
 ```
 
