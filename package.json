@@ -1,39 +1,44 @@
 {
-    "name": "less-plugin-preset-env",
-    "version": "1.0.1",
-    "description": "postcss-preset-env plugin for less.js",
-    "homepage": "https://github.com/AnYiEE/less-plugin-preset-env",
-    "author": {
-        "name": "AnYiEE",
-        "email": "i@anyi.in"
-    },
-    "contributors": [
-        "Luke Page",
-        "The Core Less Team"
-    ],
-    "bugs": {
-        "url": "https://github.com/AnYiEE/less-plugin-preset-env/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/AnYiEE/less-plugin-preset-env"
-    },
-    "licenses": [
-        {
-            "type": "Apache v2",
-            "url": "https://github.com/AnYiEE/less-plugin-preset-env/blob/master/LICENSE"
-        }
-    ],
-    "main": "lib/index.js",
-    "engines": {
-        "node": ">=4.0.0"
-    },
-    "dependencies": {
-        "postcss": "^8.4.31",
-        "postcss-preset-env": "^9.3.0"
-    },
-    "keywords": [
-        "less plugins",
-        "less prefixes"
-    ]
+	"name": "less-plugin-preset-env",
+	"version": "1.0.1",
+	"description": "postcss-preset-env plugin for less.js",
+	"scripts": {
+		"format": "prettier --write ."
+	},
+	"author": {
+		"name": "AnYiEE",
+		"email": "i@anyi.in"
+	},
+	"contributors": [
+		"Luke Page",
+		"The Core Less Team"
+	],
+	"license": "Apache v2",
+	"homepage": "https://github.com/AnYiEE/less-plugin-preset-env",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AnYiEE/less-plugin-preset-env.git"
+	},
+	"bugs": {
+		"url": "https://github.com/AnYiEE/less-plugin-preset-env/issues"
+	},
+	"keywords": [
+		"less",
+		"less.js",
+		"less plugins",
+		"less prefixes",
+		"postcss",
+		"postcss-preset-env"
+	],
+	"files": [
+		"lib"
+	],
+	"main": "lib/index.js",
+	"dependencies": {
+		"postcss": "^8.4.31",
+		"postcss-preset-env": "^9.3.0"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.3"
+	}
 }

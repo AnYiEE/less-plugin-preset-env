@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"cschlosser.doxdocgen",
+		"EditorConfig.EditorConfig",
+		"esbenp.prettier-vscode",
+		"mgmcdermott.vscode-language-babel",
+		"usernamehw.errorlens"
+	]
+}

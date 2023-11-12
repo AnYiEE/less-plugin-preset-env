@@ -1,18 +1,16 @@
-[![NPM version](https://badge.fury.io/js/less-plugin-preset-env.svg)](http://badge.fury.io/js/less-plugin-preset-env)
+[![NPM version](https://img.shields.io/npm/v/less-plugin-preset-env.svg)](https://www.npmjs.com/package/less-plugin-preset-env)
 
 # less-plugin-preset-env
 
 Uses `postcss-preset-env` to convert modern css syntax and determine required polyfills after conversion from less.
 
-## lessc usage
-
-Install..
-
-```
-pnpm add -D less-plugin-preset-env
-```
+[![Download stats](https://nodei.co/npm/less-plugin-preset-env.png?downloads=true&downloadRank=true)](https://www.npmjs.com/package/less-plugin-preset-env)
 
 ## Programmatic usage
+
+```bash
+pnpm add -D less-plugin-preset-env
+```
 
 ```js
 var LessPluginPresetEnv = require('less-plugin-preset-env'); // or
