@@ -1,6 +1,6 @@
 {
 	"name": "less-plugin-preset-env",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "postcss-preset-env plugin for less.js",
 	"scripts": {
 		"format": "prettier --write ."
@@ -17,7 +17,7 @@
 	"homepage": "https://github.com/AnYiEE/less-plugin-preset-env",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/AnYiEE/less-plugin-preset-env.git"
+		"url": "git+https://github.com/AnYiEE/less-plugin-preset-env.git"
 	},
 	"bugs": {
 		"url": "https://github.com/AnYiEE/less-plugin-preset-env/issues"
