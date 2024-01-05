@@ -35,7 +35,7 @@
 	],
 	"main": "lib/index.js",
 	"dependencies": {
-		"postcss": "^8.4.32",
+		"postcss": "^8.4.33",
 		"postcss-preset-env": "^9.3.0"
 	},
 	"devDependencies": {
