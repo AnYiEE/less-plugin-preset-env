@@ -9,7 +9,7 @@ Uses `postcss-preset-env` to convert modern css syntax and determine required po
 ## Installation
 
 ```bash
-pnpm add -D less-plugin-preset-env
+pnpm add -D postcss postcss-preset-env less-plugin-preset-env
 ```
 
 ## lessc usage
