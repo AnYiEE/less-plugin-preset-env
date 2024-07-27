@@ -29,7 +29,7 @@ var LessPluginPresetEnv = require('less-plugin-preset-env'); // or
 /** @see https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env#options */
 var options = {};
 
-less.render(lessString, { plugins: [new LessPluginAutoPrefix(options)] })
+less.render(lessString, { plugins: [new LessPluginPresetEnv(options)] })
   .then(
 ```
 
