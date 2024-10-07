@@ -1,6 +1,6 @@
 {
 	"name": "less-plugin-preset-env",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "postcss-preset-env plugin for less.js",
 	"scripts": {
 		"format": "prettier --write ."
